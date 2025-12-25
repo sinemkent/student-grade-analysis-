@@ -19,3 +19,19 @@ top_student = df.loc[df["average"].idxmax()]
 
 print("\nTop Student:")
 print(top_student)
+import matplotlib.pyplot as plt
+
+# Ders ortalamalarını listeye al
+courses = ["Math", "Physics", "Computer Science"]
+averages = [
+    df["math"].mean(),
+    df["physics"].mean(),
+    df["cs"].mean()
+]
+
+# Grafik çiz
+plt.bar(courses, averages)
+plt.title("Course Averages")
+plt.ylabel("Average Score")
+plt.xlabel("Courses")
+plt.show()
