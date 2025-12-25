@@ -13,3 +13,7 @@ This is a simple data analysis project using Python.
 
 ## Goal
 This project was created to practice data analysis basics as a first-year AI & Data Engineering student.
+## Output
+- Printed student grades
+- Calculated course averages
+- Visualized averages using a bar chart
